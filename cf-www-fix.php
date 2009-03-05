@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Crowd Favorite WWW fix
+Plugin Name: CF WWW fix
 Plugin URI: http://crowdfavorite.com
 Description: Adds www. to domains without editing WordPress database entries.  Works in WordPress 2.6-2.7 and WPMU 2.6+.
 Version: 1.0
