@@ -18,8 +18,9 @@ function cf_www_fix($home) {
 	}
 	return $home;
 }
-add_filter('option_home','cf_www_fix');
+add_filter('option_url','cf_www_fix');
 add_filter('option_siteurl','cf_www_fix');
 add_filter('template_directory_uri','cf_www_fix');
 add_filter('stylesheet_directory_uri','cf_www_fix');
+add_filter('stylesheet_uri','cf_www_fix');
 ?>
