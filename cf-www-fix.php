@@ -24,4 +24,7 @@ add_filter('option_siteurl','cf_www_fix');
 add_filter('template_directory_uri','cf_www_fix');
 add_filter('stylesheet_directory_uri','cf_www_fix');
 add_filter('stylesheet_uri','cf_www_fix');
+
+// needed to catch when attachment urls are chosen based on the GUID value
+add_filter('wp_get_attachment_url','cf_www_fix');
 ?>
